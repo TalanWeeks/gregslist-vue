@@ -2,7 +2,7 @@
   <div class="mb-4 listing">
     <router-link :to="{name: 'House', params: { houseId: house.id}}">
       <div class="card selectable">
-        <img src="house.img" alt="listing image" class="rounded">
+        <img :src="house.img" alt="listing image" class="rounded">
         <div class="card-body">
           <h5 class="d-flex justy-content-between">
             <span> Baths: {{ house.baths }} Beds: {{ house.bedrooms }} Levels: {{ house.levels }}</span>
