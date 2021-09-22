@@ -5,7 +5,7 @@
         <img :src="house.img" alt="listing image" class="rounded">
         <div class="card-body">
           <h5 class="d-flex justy-content-between">
-            <span> Baths: {{ house.baths }} Beds: {{ house.bedrooms }} Levels: {{ house.levels }}</span>
+            <span> Baths: {{ house.bathrooms }} Beds: {{ house.bedrooms }} Levels: {{ house.levels }}</span>
             <span>${{ house.price }}</span>
           </h5>
         </div>
